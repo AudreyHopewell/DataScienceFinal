@@ -1,4 +1,4 @@
-To reproduce this project, download the data file "movies_metadata.csv". 
+To reproduce this project, download the data file "movies_metadata.csv" from Kaggle [here](https://www.kaggle.com/rounakbanik/the-movies-dataset#movies_metadata.csv).
 
 Use the script "project_cleaning_variables.R" to import the data, clean it, subset it, and create new variables. This will result in two datasets, "movies.cat" and "movies.cluster" (corresponding to two different target variables for prediction).
 
