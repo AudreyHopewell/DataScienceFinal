@@ -1,1 +1,5 @@
-this file will explain how to reproduce my results
+To reproduce this project, download the data file "movies_metadata.csv". 
+Use the script "project_cleaning_variables.R" to import the data, clean it, subset it, and create new variables. This will result in two datasets, "movies.cat" and "movies.cluster" (corresponding to two different target variables for prediction).
+Run the script "project_prediction_intuitive.R" to generate results corresponding to the first analysis in the paper (classifying based on "intuitive" categorizations of movies).
+Run the script "project_prediction_cluster.R" enerate results corresponding to the second analysis in the paper (classifying based on k-means clustering generated classes).
+To recreate Figure 1, run the script "project_visualizations.R"
